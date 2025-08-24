@@ -9,15 +9,21 @@ function Home() {
         <p>This site showcases my projects, skills, and contact information.</p>
       </section>
 
-      <section className="skills">
+      {/* <section className="skills">
         <h2>My Skills</h2>
         <ul>
-          <li>HTML, CSS, Javascript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Python & Pip</li>
+          <li>Javascript</li>
           <li>React & React Router</li>
           <li>Node.js & Express</li>
           <li>MongoDB & Mongoose</li>
+          <li>Git & GitHub</li>
+          <li>CI/CD</li>
+          <li>Docker & Containerisation</li>
         </ul>
-      </section>
+      </section> */}
     </div>
   );
 }

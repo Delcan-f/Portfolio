@@ -20,6 +20,7 @@
 .page h1 {
   color: #0077cc;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .skills ul, .experience ul, .projects-grid, .contact-links {
