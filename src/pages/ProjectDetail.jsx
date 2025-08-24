@@ -1,7 +1,8 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
+import "../styles/Projects.css";
+import "../styles/App.css";
 import projects from "../data/projects";
-// import "../styles/ProjectDetail.css";
 
 export default function ProjectDetail() {
     const { id } = useParams();
@@ -9,7 +10,7 @@ export default function ProjectDetail() {
 
     if (!project) {
         return (
-            <div className="page-container">
+            <div className="projects-page">
                 <h1>Project Not Found</h1>
                 <Link to="/projects">Back to Projects</Link>
             </div>
@@ -17,7 +18,7 @@ export default function ProjectDetail() {
     }
 
     return (
-        <div className="page-container">
+        <div className="projects-page">
             <h1>{project.title}</h1>
             <p>{project.description}</p>
             {project.code && (

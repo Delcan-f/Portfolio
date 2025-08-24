@@ -1,35 +1,70 @@
-.about-page {
-    max-width: 800px;
-    margin: 50px auto;
+.page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background: #f5f5f5;
+}
+
+.page section, .projects-grid, .contact-links {
+  width: 100%;
+  max-width: 1200px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  padding: 40px;
+}
+
+.page h1 {
+  color: #0077cc;
+  margin-bottom: 20px;
+}
+
+.skills ul, .experience ul, .projects-grid, .contact-links {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skills li, .experience li, .project-card, .contact-links li {
+  background: #f0f0f0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.skills li:hover, .experience li:hover, .project-card:hover {
+  transform: translateY(-4px);
+  background: #e0f0ff;
+}
+
+.project-link, .contact-links li a {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover, .contact-links li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .page section {
     padding: 20px;
-}
+  }
 
-.bio h1 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
+  .skills ul, .experience ul, .projects-grid, .contact-links {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
 }
-
-.bio p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-.experience {
-    margin-top: 40px;
-}
-
-.experience h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-}
-
-.experience ul {
-    list-style: square inside;
-    padding-left: 0;
-}
-
-.experience li {
-    margin-bottom: 8px;
-    font-size: 1rem;
-}   
