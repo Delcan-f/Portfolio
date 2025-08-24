@@ -5,17 +5,17 @@ const projectList = [
     {
         id: 1,
         title: "Project One",
-        description: "A brief description of project one."
+        description: "Project 1 description."
     },
     {
         id: 2,
         title: "Project Two",
-        description: "A brief description of project two."
+        description: "Project 2 description."
     },
     {
         id: 3,
         title: "Project Three",
-        description: "A brief description of project three."
+        description: "Project 3 description."
     }
 ];
 
