@@ -47,7 +47,7 @@ nav a:hover::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 250px;
+  gap: 10vw;
 }
 
 @media (max-width: 768px) {

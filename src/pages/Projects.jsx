@@ -9,8 +9,22 @@ function Projects() {
       <div className="projects-grid">
         {projects.map((project) => (
           <div key={project.id} className="project-card">
+            {project.image && (
+              <img
+                src={project.image}
+                alt={project.title}
+                className="project-image"
+              />
+            )}
             <h2>{project.title}</h2>
             <p>{project.description}</p>
+            <div className="tech-stack">
+              {project.tech?.map((t, index) => (
+                <span key={index} className="tech-tag">
+                  {t}
+                </span>
+              ))}
+            </div>
             <Link to={`/projects/${project.id}`} className="project-link">
               View Details
             </Link>
