@@ -17,7 +17,7 @@ function Projects() {
               />
             )}
             <h2>{project.title}</h2>
-            <p>{project.description}</p>
+            <p>{project.description}</p> {/* short summary */}
             <div className="tech-stack">
               {project.tech?.map((t, index) => (
                 <span key={index} className="tech-tag">
