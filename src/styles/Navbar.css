@@ -55,4 +55,8 @@ nav a:hover::after {
     gap: 15px;
     padding: 10px 20px;
   }
+
+  .nav-links {
+    gap: 1.5vw;
+  }
 }
