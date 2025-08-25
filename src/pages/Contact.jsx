@@ -8,7 +8,7 @@ function Contact() {
       <ul className="contact-links">
         <li>Email: <a href="mailto:declan.flynn1901@gmail.com">declan.flynn1901@gmail.com</a></li>
         <li>LinkedIn: <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">linkedin.com</a></li>
-        <li>GitHub: <a href="https://github.com/delcan_f" target="_blank" rel="noopener noreferrer">github.com/delcan_f</a></li>
+        <li>GitHub: <a href="https://github.com/Delcan-f" target="_blank" rel="noopener noreferrer">github.com/delcan_f</a></li>
       </ul>
     </div>
   );
